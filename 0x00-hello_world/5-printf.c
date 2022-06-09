@@ -1,9 +1,9 @@
- # include <stdio.h>
+# include <stdio.h>
 
 /**
  * main - prints strings 
- *  description : displays text 
- *   Return : 0 (Success)
+ * description: displays text 
+ * Return: 0 (Success)
  */
 
 int main(void)
