@@ -1,23 +1,23 @@
 #include<stdio.h>
 
-/*
- * main: Entry Point
- * Description: except e_q
+/**
+ * main - Entry Point
+ * Description: displays the lowercase letters except for e and q
  * Return: Always 0 (Success)
  */
 
 int main(void)
 {
-char alph = 'a';
+	char alph = 'a';
 
-while (alph <= 'z')
-{
-	if (alph != 'e' && alph != 'q')
+	while (alph <= 'z')
 	{
-		putchar(alph);
+		if (alph != 'e' && alph != 'q')
+		{
+			putchar(alph);
+		}
+		alph++;
 	}
-	alph++;
-}
-putchar('\n');
-return (0);
+	putchar('\n');
+	return (0);
 }
