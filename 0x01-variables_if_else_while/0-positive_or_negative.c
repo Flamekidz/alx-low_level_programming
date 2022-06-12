@@ -3,8 +3,8 @@
 #include<time.h>
 
 /**
- * main Entry Point
- * Description: check for positive or negative
+ * main - Entry Point
+ * Description: checks number
  * Return: Always 0 (Success)
  */
 
@@ -20,6 +20,7 @@ int main(void)
 	else if (n == 0)
 		printf("%d is zero\n", n);
 	else if (n < 0)
+
 		printf("%d is negative\n", n);
 	else
 		printf("%d is not correct\n", n);
