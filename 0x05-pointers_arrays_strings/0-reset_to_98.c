@@ -2,10 +2,11 @@
 
 /**
  * reset_to_98 function taking pointer as parameter
- * Description:98 taken as argument
- * Return: nothing 
+ * Description: * @n: An integer input pointer
+ * Return: Nothing 
  */
-void reset_to_98(int *j)
-{
-	*j = 98;
 
+void reset_to_98(int *n)
+{
+	*n = 98;
+}
