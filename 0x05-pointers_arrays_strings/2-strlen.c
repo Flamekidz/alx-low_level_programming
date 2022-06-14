@@ -1,10 +1,10 @@
 #include "main.h"
 
 /**
- * _strlen - interchanges the values of two integers 
- * @s: string input 
+ * _strlen - interchanges the values of two integers
+ * @s: string input
  *
- * Return: length of string 
+ * Return: string length
  */
 
 int _strlen(char *s)
