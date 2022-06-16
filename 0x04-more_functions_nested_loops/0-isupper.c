@@ -1,20 +1,22 @@
 #include "main.h"
 
 /**
- * _isupper - entry point
- * @c: checking character
- * Return: 1 if true and 0 if false
+ * main - Entry Point
+ * Description: prints out _putchar
+ * Return: Always 0 (Success)
  */
 
-int _isupper(int c)
+int main(void)
 {
-	if (c >= 'A' && c <= 'Z')
+	putchar('_');
+	putchar('p');
+	putchar('u');
+	putchar('t');
+	putchar('c');
+	putchar('h');
+	putchar('a');
+	putchar('r');
+	putchar('\n');
 
-	{
-		return (1);
-	}
-	else 
-	{
-		return (0);
-	}
+	return (0);
 }
