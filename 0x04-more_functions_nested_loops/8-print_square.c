@@ -1,10 +1,12 @@
 #include "main.h"
 
 /**
- * print$square - function that prints a square and a new line
- * @size: sizes of length and width
- * Return: square #
+ * print_square - function that prints a square
+ * and a new line
+ * @size: of width and length
+ * Return: Always 0
  */
+
 void print_square(int size)
 {
 	int co, ro;
