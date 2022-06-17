@@ -1,26 +1,25 @@
 #include "main.h"
 
 /**
- * more_numbers - Entry Point
- * description: fiction that prints numbers 14 times
- * Return: Always 0 (Success)
+ * more_numbers - a function that prints 10 times the numbers, from 0 to 14
+ * followed by a new line
+ * Return: Always 0
  */
 
 void more_numbers(void)
 {
-	int a, b;
+	int i, j = 0;
 
-	for (a = 0; a < 10; a++)
+	for (; j < 10; j++)
 	{
-		for (b = 0; b < 15; b++)
+		for (i = 0; i <= 14; i++)
 		{
-			if (b >= 10)
+			if (i > 9)
 			{
-				_putchar(b / 10 + '0');
-				_putchar(b % 10 + '0');
+				_putchar(i / 10 + '0');
 			}
-			_putchar('\n');
-
+			_putchar(i % 10 + '0');
 		}
+		_putchar('\n');
 	}
 }
